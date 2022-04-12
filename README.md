@@ -1,5 +1,10 @@
 # Manulife Mobile API
 
+## Disclaimer
+Use at your own risk. I am not responsible for any consequences that arise from the use of this API.
+
+If you'd like contribute more documentation or notice anything wrong, please don't hesitate to submit a pull request.
+
 ## Authentication Flow
 Manulife now does authentication via "Manulife ID" which then can authorize requests to several different applications.
 
