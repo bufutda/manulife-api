@@ -244,7 +244,7 @@ The API base URI for retirement and benefit accounts is `cac.mesh.api.manulife.c
 All authenticated requests should contain the following headers:
 | Header | Value | Description |
 | - | - | - |
-| `Authorization` | Bearer eyJraW...EfjLg | The apigee token. See [Fetch apigee Token](#fetch-apigee-token). |
+| `Authorization` | Bearer eyJraW...EfjLg | The apigee token. See [Fetch apigee Token](#3-fetch-apigee-token). |
 | `x-Authorization` | Bearer UX...8zE | The OAuth token from Manulife ID authentication. See [Retrieve OAuth token](#retrieve-oauth-token). |
 | `x-jailbroken-flag` | false | This can also be true but it may limit functionality with portions of the API. |
 | `x-device-id` | Android SDK built for x86_64 | This is likely just for internal metrics |
