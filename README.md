@@ -25,8 +25,8 @@ POST /am/json/realms/mobile/authenticate
 ###### Response
 ```json
 {
-	"authId": "eyJ0....uPJI",
-  	"callbacks": [...]
+    "authId": "eyJ0....uPJI",
+    "callbacks": [...]
 }
 ```
 
@@ -37,18 +37,18 @@ Kick off the authentication process with a POST to `/am/json/realms/mobile/authe
 `callbacks` is an array of objects of the form:
 ```json
 {
-	"_id": 0,
-   	"input": [
-		{
-			"name":	"",
-			"value": ""
-		}
+    "_id": 0,
+       "input": [
+        {
+            "name": "",
+            "value": ""
+        }
     ],
-	"output": [
-		{
-			"name":	"",
-			"value": {}
-		}
+    "output": [
+        {
+            "name": "",
+            "value": {}
+        }
     ],
     "type": ""
 }
