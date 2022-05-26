@@ -17,6 +17,8 @@ The POST body for each stage is the response JSON from the previous stage with a
 
 All POST bodies (aside from the initial one which is empty) are JSON.
 
+Manulife has transitioned to being using the [Akamai Bot Manager Premier SDK](https://developer.akamai.com/tools/sdk/bot-manager) as a protection against it's mobile authentication scheme. As such, you'll need to provide a valid `x-acf-sensor-data` header with all requests in this section. Once you get to the [Authentication Success](#authentication-success) section, you no longer need to provide this header.
+
 ###### Request
 ```
 POST /am/json/realms/mobile/authenticate
